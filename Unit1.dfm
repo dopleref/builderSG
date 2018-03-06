@@ -11,6 +11,7 @@ object Form1: TForm1
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  OnDestroy = FormDestroy
   PixelsPerInch = 96
   TextHeight = 13
   object PaintBox1: TPaintBox
@@ -18,5 +19,6 @@ object Form1: TForm1
     Top = 24
     Width = 505
     Height = 417
+    OnDblClick = PaintBox1DblClick
   end
 end
